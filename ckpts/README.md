@@ -12,7 +12,6 @@
 | `ablation_bigmlp_ep60.pth` | 662 MB | + MLP capacity ×2.6 (bigmlp) | 2.910 | [`nocmd_ablation_bigmlp_60ep`](../projects/configs/VAD/VAD_tiny_e2e_h4f12_clean_v9c_nocmd_ablation_bigmlp_60ep.py) |
 | **`nudgevad_film_v4_ep60.pth`** | **662 MB** | **NudgeVAD (FiLM-v4)** ⭐ | **2.626** | [`nocmd_nudgevad_60ep`](../projects/configs/VAD/VAD_tiny_e2e_h4f12_clean_v9c_nocmd_nudgevad_60ep.py) |
 
-Total ~4.1 GB. Integrity check via `sha256sum -c SHA256SUMS`.
 
 ## Provenance
 
@@ -91,9 +90,6 @@ python tools/test_doscenes.py \
   --out submissions/my_submission.csv
 ```
 
-## Cloud download (TODO: fill in after upload)
 
-```bash
-# wget https://<cloud-url>/nudgevad_film_v4_ep60.pth -O ckpts/nudgevad_film_v4_ep60.pth
-# ...
-```
+
+
