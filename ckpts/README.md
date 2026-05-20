@@ -11,6 +11,8 @@
 | `ablation_v2_ep60.pth` | 642 MB | + BN-freeze fix (v2) | 3.282 | [`nocmd_ablation_v2_60ep`](../projects/configs/VAD/VAD_tiny_e2e_h4f12_clean_v9c_nocmd_ablation_v2_60ep.py) |
 | `ablation_bigmlp_ep60.pth` | 662 MB | + MLP capacity ×2.6 (bigmlp) | 2.910 | [`nocmd_ablation_bigmlp_60ep`](../projects/configs/VAD/VAD_tiny_e2e_h4f12_clean_v9c_nocmd_ablation_bigmlp_60ep.py) |
 | **`nudgevad_film_v4_ep60.pth`** | **662 MB** | **NudgeVAD (FiLM-v4)** ⭐ | **2.626** | [`nocmd_nudgevad_60ep`](../projects/configs/VAD/VAD_tiny_e2e_h4f12_clean_v9c_nocmd_nudgevad_60ep.py) | [https://drive.google.com/drive/folders/1Iw7-jlO0lb0kbA8rHSgmj3vfOiRMeze_?usp=share_link](https://drive.google.com/drive/folders/1Iw7-jlO0lb0kbA8rHSgmj3vfOiRMeze_?usp=share_link)
+| **`VAD_tiny_e2e`** | **455 MB** | - | - | - | [https://drive.google.com/drive/folders/1Iw7-jlO0lb0kbA8rHSgmj3vfOiRMeze_?usp=share_link](https://drive.google.com/drive/folders/1Iw7-jlO0lb0kbA8rHSgmj3vfOiRMeze_?usp=share_link)
+| **`shu_wei_stripped_for_v9c.pth`** | **454 MB** | - | - | - | [https://drive.google.com/drive/folders/1Iw7-jlO0lb0kbA8rHSgmj3vfOiRMeze_?usp=share_link](https://drive.google.com/drive/folders/1Iw7-jlO0lb0kbA8rHSgmj3vfOiRMeze_?usp=share_link)
 
 
 ## Provenance
