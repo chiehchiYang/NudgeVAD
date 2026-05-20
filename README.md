@@ -20,8 +20,6 @@ Submitted to the **CVPR 2026 doScenes Instructed-Driving Challenge** ([mi3-lab.g
 | + Stop override  ⭐ | 0.348 | 0.836 | 1.290 | 1.713 | 2.197 | 2.774 | 6.071| 0.816 |
 
 
-ΔADE@6s = cumulative improvement vs VAD-Tiny baseline (no-cmd Stage 1 ep60). NudgeVAD's own same-model own-ΔADE (with-language minus no-language, cmd-matched random one-hot) is **+0.360 m** at a@6s. The official challenge "history-only" baseline reports ΔADE = −0.096 on test — NudgeVAD is, to our knowledge, the first reported method that produces a clearly **positive** ΔADE under doScenes's no-future-leakage protocol.
-
 ## Architecture
 
 ```
