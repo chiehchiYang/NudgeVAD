@@ -1,0 +1,42 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+build/
+dist/
+
+# Data & outputs
+data
+data/
+mmdetection3d
+mmdetection3d/
+output_*
+output_*/
+*.pth
+*.pkl
+!projects/**/*.pkl
+
+# Local ckpt staging — NOT committed to git, intended for cloud upload.
+# (Files exist on disk for the maintainer to upload externally.)
+ckpts/*.pth
+
+# Archived 493-row submissions (replaced by 150-row format)
+submissions/archive_493row/
+
+# Logs & temp
+*.log
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local npz dumps + /tmp staging
+/tmp/
+*.npz
+# submissions/ CSVs are small (~150 KB) and are kept in-repo as reference.
+
+# doScenes annotations are external, fetched separately
+third_party/doScenes/Annotations/
+third_party/doScenes/paths.txt

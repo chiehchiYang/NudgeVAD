@@ -1,0 +1,3 @@
+# Copy this to paths.txt and edit the paths for your environment.
+NUSCENES_ROOT=/path/to/data/nuscenes
+DOSCENES_ANNOTATIONS=/path/to/third_party/doScenes/Annotations
